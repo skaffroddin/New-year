@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.merri {
+    font-family: "Merriweather", serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+span{
+    color: #F00;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.width {
+    width: 50%;
+}
+
+.head-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.head-banner {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-banner-text {
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+    left: 150px;
+    font-size: 32px;
+    color: white;
+}
+
+.header-banner-text h1 {
+    margin-top: 16px;
+}
+
+.discount {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.discount h1 {
+    font-size: 58px;
+    color: #F00;
+    font-weight: 700;
+}
+
+.discount p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F00;
+    margin-top: 48px;
+}
+
+.discount h2 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 41px;
+    margin-top: 16px;
+}
+
+.new-year-img {
+    margin-top: 48px;
+}
+
+.welcome-banner {
+    margin: 0 auto;
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    margin-top: 120px;
+}
+
+.welcome-banner-img {
+    width: auto;
+    height: auto;
+}
+
+.welcome-banner-text {
+    color: white;
+    margin-top: 110px;
+}
+
+.welcome-banner-text h1 {
+    font-size: 64px;
+}
+
+.welcome-banner-text p {
+    margin-top: 14px;
+}
+
+.welcome-banner-text button {
+    margin-top: 28px;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.welcome-subcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 60px 60px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.location p,
+button {
+    margin-top: 10px;
+}
+
+.join button {
+    padding: 16px 22px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #F00;
+}
+
+.best-offers{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 125px;
+    gap: 50px;
+}
+
+.offer-annoucement h3,h1,p{
+    margin-top: 22px;
+}
+
+.offer-year p,img{
+    margin-top: 22px;
+}
+
+.offer-image img{
+    display: block;
+    margin: auto;
+}
+
+.offer-image{
+    border: 8px solid #F00;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.offer-annoucement h3{
+    font-size: 29px;
+    color: #F00;
+    font-weight: 500;
+}
+
+.offer-annoucement h1{
+    font-size: 48px;
+}
+
+.offer-announcement p{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.offer-year h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F00;
+}
+
+.offer-year p{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.holiday{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.question h4{
+    font-size: 24px;
+}
+
+.question h1{
+    font-size: 52px;
+}
+
+.question p{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.off{
+    position: relative;
+}
+
+.off .red-rec img{
+    width: 100%;
+}
+
+.off .gift-box img{
+    width: 50%;
+    position: absolute;
+    bottom: 30px;
+    right: 450px;
+}
+
+.off .off-50 img{
+    width: 20%;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    z-index: 1;
+}
+
+.off .model-girl img{
+    position: relative;
+    width: 30%;
+    height: auto;
+    left: 385px;
+    top: 26px;
+}
+
+.products{
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.products h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.products h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.products p{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.gift1, .gift2{
+    display: flex;
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.products .product img{
+    width: 100%;
+}
+
+.newsletter{
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.envelope{
+    text-align: center;
+}
+
+.newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+}
+
+.email{
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.email input{
+    height: 50px;
+    width: 400px;
+    border: 0;
+    border-radius: 48px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 25px;
+}
+
+.email button{
+    position: absolute;
+    padding: 17px 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 0;
+    background-color: #F00;
+    color: #FFF;
+    right: 230px;
+    bottom: 20px;
+}
+
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+    color: #FFF;
+}
+
+.sub-footer{
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contact div{
+    display: flex;
+    align-items: center;
+}
+
+.customer-care{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-handles{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.last-opt{
+    display: flex;
+    justify-content: space-between;
+}
